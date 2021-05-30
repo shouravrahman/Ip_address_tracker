@@ -42,7 +42,8 @@ export const FormInput = styled.input`
 	width: 85%;
 	margin: 0 auto;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
 	font-size: 1.2rem;
 	text-align: left;
 `;
@@ -62,6 +63,6 @@ export const Button = styled.button`
 	font-size: 2rem;
 	/* padding: 5px; */
 	color: white;
-	border-bottom-right-radius: 5px;
-	border-top-right-radius: 5px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
 `;
