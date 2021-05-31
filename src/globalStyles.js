@@ -6,6 +6,11 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family:'source sans pro',sans-serif;
+
+    body{
+        height:100vh;
+        overflow:hidden;
+    }
 }
 
 `;
