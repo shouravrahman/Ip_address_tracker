@@ -13,6 +13,10 @@ export const Head = styled.div`
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	@media screen and (max-width: 830px) {
+		height: 30vh;
+	}
 `;
 
 export const HeadLine = styled.h1`
@@ -23,6 +27,12 @@ export const HeadLine = styled.h1`
 	margin-bottom: 2rem;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 700;
+
+	@media screen and (max-width: 830px) {
+		font-size: 2rem;
+		margin-top: 1.5rem;
+		margin-bottom: 1rem;
+	}
 `;
 export const Form = styled.form`
 	max-width: 500px;
@@ -32,6 +42,10 @@ export const Form = styled.form`
 	justify-content: center;
 	align-items: center;
 	margin: 0 auto;
+
+	@media screen and (max-width: 830px) {
+		height: 20vh;
+	}
 `;
 
 export const FormInput = styled.input`
@@ -39,25 +53,37 @@ export const FormInput = styled.input`
 	outline: none;
 	align-self: flex-start;
 	color: black;
-	height: 30%;
-	width: 85%;
+	height: 40%;
+	width: 90%;
 	margin: 0 auto;
-	padding: 10px 20px;
-	border-bottom-left-radius: 20px;
-	border-top-left-radius: 20px;
+	padding: 20px 0px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
 	font-size: 1.2rem;
-	text-align: left;
+	text-align: center;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
+	caret-color: blue;
+	@media screen and (max-width: 830px) {
+		height: 30%;
+		padding: 10px 0px;
+		margin: 0 10px;
 
+		&::placeholder {
+			font-size: 1rem;
+		}
+	}
 	&::placeholder {
 		text-align: center;
+	}
+	&:hover {
+		cursor: pointer;
 	}
 `;
 
 export const Button = styled.button`
-	width: 15%;
-	height: 30%;
+	width: 10%;
+	height: 40%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -66,10 +92,20 @@ export const Button = styled.button`
 	outline: none;
 	border: none;
 	text-align: center;
+	padding: 0 10px;
 	background: black;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: white;
-	border-bottom-right-radius: 20px;
-	border-top-right-radius: 20px;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
 	font-family: 'Rubik', sans-serif;
+
+	@media screen and (max-width: 830px) {
+		height: 30%;
+		margin: 0 10px 0 -10px;
+	}
+	&:hover {
+		cursor: pointer;
+		background: hsl(0, 0%, 17%);
+	}
 `;

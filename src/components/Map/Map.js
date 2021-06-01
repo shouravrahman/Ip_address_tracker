@@ -6,7 +6,7 @@ import { icon } from './Icon';
 const Map = ({ res }) => {
 	const position = [res.location.lat, res.location.lng];
 	return (
-		<MapContainer center={position} zoom={16} scrollWheelZoom={true}>
+		<MapContainer center={position} zoom={18} scrollWheelZoom={true}>
 			<TileLayer
 				url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 				attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
