@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import React from 'react';
 import { Form, FormInput, Head, HeadLine, Button } from './Header.elements';
-// import { useFetch } from '../../useFetch';
 
 const Header = ({ getIp }) => {
 	const [input, setInput] = useState('');

@@ -21,6 +21,8 @@ export const HeadLine = styled.h1`
 	text-align: center;
 	margin-top: 5rem;
 	margin-bottom: 2rem;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
 `;
 export const Form = styled.form`
 	max-width: 500px;
@@ -30,7 +32,6 @@ export const Form = styled.form`
 	justify-content: center;
 	align-items: center;
 	margin: 0 auto;
-	/* background: url(${bg}); */
 `;
 
 export const FormInput = styled.input`
@@ -46,6 +47,12 @@ export const FormInput = styled.input`
 	border-top-left-radius: 20px;
 	font-size: 1.2rem;
 	text-align: left;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+
+	&::placeholder {
+		text-align: center;
+	}
 `;
 
 export const Button = styled.button`
@@ -61,8 +68,8 @@ export const Button = styled.button`
 	text-align: center;
 	background: black;
 	font-size: 2rem;
-	/* padding: 5px; */
 	color: white;
 	border-bottom-right-radius: 20px;
 	border-top-right-radius: 20px;
+	font-family: 'Rubik', sans-serif;
 `;

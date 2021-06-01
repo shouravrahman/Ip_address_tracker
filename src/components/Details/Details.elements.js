@@ -19,54 +19,8 @@ export const Box = styled.div`
 	box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 10%);
 `;
 
-export const IP = styled.section`
-	padding: 2rem 0;
-
-	h3 {
-		color: hsl(0, 0%, 59%);
-		margin-bottom: 30px;
-	}
-	h1 {
-		color: hsl(0, 0%, 17%);
-		font-size: 1.4rem;
-		font-weight: bold;
-	}
-`;
-export const Location = styled.section`
-	padding: 2rem 0;
-	h3 {
-		color: hsl(0, 0%, 59%);
-		margin-bottom: 30px;
-	}
-	h1 {
-		color: hsl(0, 0%, 17%);
-		font-size: 1.4rem;
-		font-weight: bold;
-	}
-`;
-export const TimeZone = styled.section`
-	padding: 2rem 0;
-
-	h3 {
-		color: hsl(0, 0%, 59%);
-		margin-bottom: 30px;
-	}
-	h1 {
-		color: hsl(0, 0%, 17%);
-		font-size: 1.4rem;
-		font-weight: bold;
-	}
-`;
-export const ISP = styled.section`
-	padding: 2rem 0;
-
-	h3 {
-		color: hsl(0, 0%, 59%);
-		margin-bottom: 30px;
-	}
-	h1 {
-		color: hsl(0, 0%, 17%);
-		font-size: 1.4rem;
-		font-weight: bold;
-	}
+export const LoaderDiv = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
 `;

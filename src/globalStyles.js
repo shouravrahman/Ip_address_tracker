@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
     body{
         height:100vh;
         overflow:hidden;
+        font-family: 'Rubik', sans-serif;
     }
 }
 
