@@ -37,7 +37,7 @@ export const HeadLine = styled.h1`
 export const Form = styled.form`
 	max-width: 500px;
 	width: 100%;
-	height: 30vh;
+	height: 40vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -92,7 +92,7 @@ export const Button = styled.button`
 	outline: none;
 	border: none;
 	text-align: center;
-	padding: 0 10px;
+	padding: 22px 10px;
 	background: black;
 	font-size: 1.5rem;
 	color: white;

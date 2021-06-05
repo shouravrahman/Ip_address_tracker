@@ -3,8 +3,8 @@ import { Box, LoaderDiv } from './Details.elements';
 import { Ellipsis } from 'react-awesome-spinners';
 import Base from './Base';
 
-const Details = ({ res, error, isLoading }) => {
-	console.log(res);
+const Details = ({ res, isLoading }) => {
+	// console.log(res);
 	return isLoading ? (
 		<LoaderDiv>
 			<Ellipsis color={'#5771D8'} />

@@ -27,7 +27,7 @@ const Header = ({ getIp }) => {
 						onChange={(e) => {
 							setInput(e.target.value);
 						}}
-						placeholder='Search for any IP address or Domain'
+						placeholder='Search for any IP address'
 					/>
 					<Button type='submit'>
 						<FaArrowRight />
